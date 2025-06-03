@@ -2,8 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <title>HW#2 &mdash; Practice Scaffold</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Logo & Nav -->
+    <div class="grid-con">
+      <div class="col-span-3 m-col-span-3 l-col-span-2 logo">Logo</div>
+      <div class="col-span-1 m-col-span-9 l-col-span-10 nav">Nav</div>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="grid-con">
+      <!-- Full width on mobile/tablet, centered (col 3-10) on desktop -->
+      <div class="col-span-4 m-col-span-12 l-col-start-3 l-col-span-8 hero">
+        Hero Image
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-6 l-col-span-6 product">Product 1</div>
+      <div class="col-span-4 m-col-span-6 l-col-span-6 product">Product 2</div>
+    </div>
+
+    <!-- Services Row 1 -->
+    <div class="grid-con">
+      <div class="col-span-2 m-col-span-4 l-col-span-3 service">Service 1</div>
+      <div class="col-span-2 m-col-span-4 l-col-span-3 service">Service 2</div>
+      <div class="col-span-2 m-col-span-4 l-col-span-3 service">Service 3</div>
+      <div class="col-span-2 m-col-span-4 l-col-span-3 service">Service 4</div>
+    </div>
+
+    <!-- Services Row 2 with desktop-centered image -->
+    <div class="grid-con">
+      <div class="col-span-2 m-col-span-6 l-col-span-3 service">Service 5</div>
+      <div class="hidden show-desktop l-col-span-6 image">Image</div>
+      <div class="col-span-2 m-col-span-6 l-col-span-3 service">Service 6</div>
+    </div>
+
+    <!-- Footer -->
+    <div class="grid-con">
+      <div class="col-span-4 m-col-span-12 l-col-span-12 footer">Footer</div>
+    </div>
+  </body>
 </html>
